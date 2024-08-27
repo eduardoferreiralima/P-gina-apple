@@ -1,0 +1,164 @@
+
+body{  /*configurações do corpo da página*/
+    background-color: #FAFAFA;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    width: 800px;
+}
+header ul li{ /*margens e decoração dos links da barra de navegação*/
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #A6B1B7;
+}
+header ul a {
+    margin-top: 10px;
+}
+
+.navbar{   /*configurações da barra de navegação*/
+    display: flex;
+    background-color: #444445;
+    text-align: center;
+    height: 48px;
+}
+
+
+
+ul a:hover  { /*cor dos links da barra de navegação ao passar o mouse*/
+    color: #FFFFFF;
+
+}
+
+
+
+
+main a{    /*cor e decoração dos links do conteúdo*/
+    color:  #0066CC;
+    text-decoration: none;
+}
+
+
+
+.button_allign{  /*alinhamento dos botões da página*/
+    text-align: center;
+}
+
+main div button a{  /*tamanho da fonte, margem direita e esquerda dos links do conteúdo da página*/
+    font-size: 24px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+h1{  /*tamanho da fonte, margem superior e inferior dos titulos do conteúdo da página*/
+    font-size: 72px;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+
+main p{  /*tamanho da fonte, margem superior e inferior dos textos do conteúdo da página*/
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+
+
+.img{ /*configurações das imagens do conteúdo da página*/
+    text-align: center;
+}
+
+
+.applewacth { 
+    color: white;
+    background-color: #010101;
+}
+
+
+main{   /*configurações do conteúdo  danpágina*/
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 800px;
+    text-align: center;
+}
+
+footer{  /*configurações do rodapé da página*/ 
+    background-color: #F5F5F7;
+    text-align: center;
+    width: 890px;
+    color: #6E6E73;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 12px;
+    
+}
+
+footer ul li {  /*configurações do texto do rodapé da página*/
+    display: inline;
+    text-align: center;
+    color: #424245;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+/*
+Obs. 2: O tamanho dos textos estão especificados em pixel, mas você deverá usar a medida rem. Para isso, faça o cálculo de conversão de pixel em rem. Assuma que 1rem = 16px.
+
+Obs. 3: Ao finalizar, compacte o projeto e renomeie-o com o seu nome para a submissão da resposta.
+Crie uma página seguindo os passos e imagem abaixo:
+
+- Utilize os contêineres corretos segundo a semântica de cada componente;ok
+- Zere as margens e o preenchimento da página; ok
+- A página deverá ter cor de fundo #FAFAFA; ok
+- A fonte a ser utilizada é a Arial; ok
+- Todos os links sem sublinhado. ok
+
+Cabeçalho:
+- O cabeçalho deverá conter também a barra de navegação; ok
+- a imagem da maçã deverá ter largura de 18px e deverá ser o título da página e deverá possuir um link para a página inicial; ok
+- cor de fundo #444445; ok
+- Altura de 48px; ok
+- preenchimento superior de 10px; ok
+
+Navegação:
+- zerar margem e preenchimento da lista;ok
+- itens da lista um ao lado do outro com margem esquerda e direita de 32px; ok 
+- links de navegação com cor #A6B1B7;ok
+- ao passar o mouse por cima, os links de navegação deverão ficar com cor #FFFFFF;ok
+
+Conteúdo principal:
+- links com cor #0066CC; ok
+
+
+
+
+
+seções de produtos:
+- seções de produtos com preenchimento superior e inferior de 32px;ok
+- largura da seção de 800px, centralizado; ok
+- todos os textos com alinhamento centralizado; ok
+- título da seção com fonte tamanho 72px, margem superior de 60px e margem inferior de 8 px, as demais margens zeradas;ok
+- os demais textos com tamanho de 30px e margem superior e inferior de 5px;ok
+- links com fonte tamanho 24px e margem esquerda e direita de 15px;ok
+- seção do smart watch com cor de fundo #010101 e texto com cor branca;ok
+- A imagem do smartphone deverá ter 800px de largura, enquanto a do smart watch, 628px.ok
+
+Rodapé:
+- cor de fundo #F5F5F7;ok
+- cor da fonte #6E6E73;ok
+- conteúdo do rodapé com largura de 890px e centralizado;ok
+- itens da lista de links um ao lado do outro com cor #424245, margem superior e inferior zeradas e margens esquerda e direita de 36px. ok */
